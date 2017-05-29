@@ -1,0 +1,9 @@
+<div id="toast-container" class="toast-top-right" aria-live="polite" role="alert">
+  <ng-container *ngFor=" let note of notes">
+    <div class="toast {{note.displayClass}}">
+      <button class="toast-close-button" (click)="hide(note)" role="button">×</button>
+      <div class="toast-title">{{note.type}}</div>
+      <div class="toast-message">{{ note.message }}</div>
+    </div>
+  </ng-container>
+</div>

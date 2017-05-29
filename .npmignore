@@ -1,0 +1,14 @@
+.idea
+.vscode
+
+node_modules
+npm-debug.log
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+index.html
+tsconfig.json
+tslint.json
+*.tgz

@@ -1,0 +1,15 @@
+{
+  "name": "angular2-notifications",
+  "version": "1.0.0",
+  "description": "Angular to toastr module for user notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://Deacan@bitbucket.org/Deacan/angular-toastr-notification.git"
+  },
+  "author": "Brandon Shaw",
+  "license": "ISC"
+}
