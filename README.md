@@ -1,8 +1,5 @@
 Angular2 User Notification Toastr
 
-## Demo
-http://deropsdevhr01:8767/#/home
-
 ## Dependencies
 
 `rxjs`
@@ -56,12 +53,12 @@ export class MyAppModule { }
 #### Methods
 
 - `add(notification: Notification): void`
-    - this.notificationService.add(new Notification(userMessage)); 
+    - this.notificationService.add(new Notification(userMessage));
     - new Notification(userMessage)
         * creates new Notification object
         * subscribes to the noteAdded stream in the notification service
     -  this.notificationService.add()
-        * fires the next method on the notifications stream. 
+        * fires the next method on the notifications stream.
 
 ### NotificationsComponent
 #### Methods
@@ -84,7 +81,7 @@ In your app.componet.html
     </div>
 <jtt-footer></jtt-footer>
 ```
-    
+
 ### Shared Module
 
 ```typescript
