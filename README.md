@@ -21,7 +21,7 @@ System.config({
     }
 });
 ```
-### Method 2 - OpsDev Angular 2 Seed
+### Method 2 - MGECHEV Angular 2 Seed
  In tools/config/project.config.ts, inside the ProjectConfig class:
 
 ```javascript
@@ -72,14 +72,14 @@ export class MyAppModule { }
 
 In your app.componet.html
 ```html
-<jtt-header></jtt-header>
+<header></header>
     <div class="clearfix"> </div>
     <div class="page-container">
-        <jtt-sidebar></jtt-sidebar>
+        <sidebar></sidebar>
         <router-outlet></router-outlet>
         <notify-user></notify-user>
     </div>
-<jtt-footer></jtt-footer>
+<footer></footer>
 ```
 
 ### Shared Module
@@ -91,7 +91,7 @@ import { NotificationsModule } from './components/user-notifications/notificatio
   imports: [NotificationsModule],
   declarations: [],
   exports: [NotificationsModule],
-  providers: [NotificationsModule]
+  providers: []
 })
 export class SharedModule {
   static forRoot(): ModuleWithProviders {
